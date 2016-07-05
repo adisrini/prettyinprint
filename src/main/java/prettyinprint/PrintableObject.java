@@ -8,6 +8,14 @@ public abstract class PrintableObject {
         this.object = object;
     }
     
-    public abstract String output();
+    public abstract boolean isEmpty();
+    
+    public abstract String outputNormalHorizontal();
+    
+    public abstract String outputNormalVertical();
+    
+    public abstract String outputFancyHorizontal();
+    
+    public abstract String outputFancyVertical();
 
 }
